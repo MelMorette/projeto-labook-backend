@@ -50,7 +50,7 @@ Endpoint público utilizado para cadastro. Devolve um token jwt.
 {
   "name": "Elon Musk",
   "email": "elonmusk@email.com",
-  "password": "elonmusk00"
+  "password": "ilovetesla"
 }
 
 // response
@@ -67,7 +67,7 @@ Endpoint público utilizado para login. Devolve um token jwt.
 // body JSON
 {
   "email": "elonmusk@email.com",
-  "password": "elonmusk00"
+  "password": "ilovetesla"
 }
 
 // response
@@ -120,7 +120,7 @@ Endpoint protegido, requer um token jwt para acessá-lo.
 // headers.authorization = "token jwt"
 // body JSON
 {
-    "name": "Pizzas"
+    "name": "Sorvetes"
 }
 
 // response
